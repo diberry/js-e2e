@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js --unhandled-rejections=warn"
+    "start": "node index_consolidated.js --unhandled-rejections=warn"
   },
   "keywords": [],
   "author": "",

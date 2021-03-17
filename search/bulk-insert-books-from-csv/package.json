@@ -1,0 +1,17 @@
+{
+  "name": "bulk-insert-books-from-csv",
+  "version": "1.0.0",
+  "description": "* Node 15+: [bulk_insert_books.js](bulk_insert_books.js): uses streams with promises from Node 15.\r * Node 10,12,14: [bulk_insert_books_no_streams.js](bulk_insert_books_no_streams.js)",
+  "main": "bulk_insert_books.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/search-documents": "^11.1.0",
+    "csv-parser": "^3.0.0",
+    "papaparse": "^5.3.0"
+  }
+}
